@@ -1,0 +1,36 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .box{
+    width: 500px;
+    height: 500px;
+    background-color:#06D001;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    gap: 20px;
+    
+    }
+    
+    .step{
+        width: 80%;
+        height: 100px;
+        background-color: #F3FF90;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+    }
+
+    .step:hover{
+        background-color: #9BEC00;
+        transition: all 1s;
+    }
